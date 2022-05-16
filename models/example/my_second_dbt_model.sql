@@ -3,4 +3,4 @@
 
 select *
 from {{ ref('my_first_dbt_model') }}
-where id = '3ddcd0085422668b2d915bc1af76db68ccab933f'
+where id like '3%'
