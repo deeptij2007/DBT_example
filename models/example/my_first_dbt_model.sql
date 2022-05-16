@@ -9,7 +9,7 @@
 
 {{ config(materialized='table') }}
 
-SELECT id FROM `properati-data-public.properties_ar.properties_rent_201501` LIMIT 1000
+SELECT id FROM `properati-data-public.properties_ar.properties_rent_201501`
 
 /*
     Uncomment the line below to remove records with null `id` values
